@@ -1,0 +1,22 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.plot{
+    display: flex;
+    width: 50%
+}
+
+@media screen and (max-width: 1200px) {
+  .parent{
+    flex-direction: column;
+  }
+  .plot{
+    width: 100%
+  }
+}
